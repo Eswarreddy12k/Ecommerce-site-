@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="addproductcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container"> 
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="addproduct.html">Add Products</a></li>
+                        <li><a href="dashboard.php">DashBoard</a></li>
+                        <li><a href="uservices.html">Services</a></li>
+                        <li><a href="mailto:farmersgate@gmail.com">Contact us</a></li>
+            
+                    </ul>
+                </nav>
+                <div class="signup">
+                    <a href="signin.html"><img alt="Qries" src="img/signup.jpg"></a>
+                </div>
+            </div>
+            <form action="uploadproduct.php" method="post" enctype="multipart/form-data">
+
+                <div class="fname">
+                    <label for="fname">Farmer Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Farmer Name">
+                </div> 
+                <div class="cname">
+                    <label for="cname">Name Of The Product</label>
+                    <input type="text" id="cname" name="cname" placeholder="Crop Name">
+                </div>  
+                <div class="location">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="location">
+                </div>
+                <div class="quantity">
+                    <label for="quantity">Quantity</label>
+                    <input type="text" id="quantity" name="quantity" placeholder="quantity">
+                </div>
+                <div class="cost">
+                    <label for="cost">Cost</label>
+                    <input type="text" id="cost" name="cost" >
+                </div>
+                <div class="phoneno">
+                    <label for="phoneno">Mobile</label>
+                    <input type="text" id="phoneno" name="phoneno" >
+                </div>  
+            <div class="pimg">
+                <input type="file" name="myimage" placeholder="Image">
+            </div>
+            <div class="ctype">
+                <label for="html">Type</label>
+                <input type="text" id="html" name="fav_language"  placeholder="Enter only vegetable,fruit,ceral,other">
+            </div>
+            <div class="descp">
+                <label for="desc">Short Description     .....</label>
+                <input type="text" id="desc" name="description" placeholder="Description">
+            </div>
+            
+            
+            <input type="submit" value="submit">
+        </form>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="fc1">
+                        <h3>Download our app</h3>
+                        <p>Supported on Android and Ios</p>
+                    </div>
+                    <div class="fc2">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="fc22">
+                        <h3>FarmersGate</h3>
+                        <p>Uniting Farmers and Buyers</p>
+                    </div>
+                    <div class="fc3">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+    
+    
+    
+        
+    </body>
+    </html>

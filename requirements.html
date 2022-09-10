@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="addproductcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container"> 
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Add Products</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Around me</a></li>
+                        <li><a href="">Contact us</a></li>
+            
+                    </ul>
+                </nav>
+                <div class="signup">
+                    <a href="signin.html"><img alt="Qries" src="img/signup.jpg"></a>
+                </div>
+            </div>
+            <form action="requireprocuct.php" method="post" enctype="multipart/form-data">
+            <div class="name">
+                <label for="nam">Buyer Name</label>
+                <input type="text" id="nam" name="namef" placeholder="Buyer Id">
+            </div>
+            
+            
+            <div class="pname">
+                <label for="Product Name">Product Required</label>
+                <input type="text" id="Product Name" name="name" placeholder="Product">
+            </div>
+            <div class="Budget">
+                <label for="desc">Budget</label>
+                <input type="text" id="desc" name="budget" placeholder="Budget">
+            </div>
+            <div class="phone">
+                <label for="phone">PhoneNo</label>
+                <input type="text" id="phone" name="phone" >
+            </div>
+            <div class="location">
+                <label for="location">Location</label>
+                <input type="text" id="location" name="name" placeholder="Location">
+            </div>
+            <div class="amount">
+                <label for="amount">Amount Required</label>
+                <input type="text" id="amount" name="name" placeholder="in KG">
+            </div>
+            <input type="submit" value="submit">
+        </form>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="fc1">
+                        <h3>Download our app</h3>
+                        <p>Supported on Android and Ios</p>
+                    </div>
+                    <div class="fc2">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="fc22">
+                        <h3>FarmersGate</h3>
+                        <p>Uniting Farmers and Buyers</p>
+                    </div>
+                    <div class="fc3">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+    
+    
+    
+        
+    </body>
+    </html>

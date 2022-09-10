@@ -1,0 +1,105 @@
+<?php
+    $str ='&lt;!DOCTYPE html&gt; 
+    &lt;html lang=&#039;en&#039;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&#039;UTF-8&#039;&gt;
+        &lt;meta http-equiv=&#039;X-UA-Compatible&#039; content=&#039;IE=edge&#039;&gt;
+        &lt;meta name=&#039;viewport&#039; content=&#039;width=device-width, initial-scale=1.0&#039;&gt;
+        &lt;title&gt;Product Details&lt;/title&gt;
+        &lt;link rel=&#039;stylesheet&#039; href=&#039;stylecardd.css&#039;&gt;
+        &lt;link rel=&#039;stylesheet&#039; href=&#039;style.css&#039;&gt;
+        &lt;link rel=&#039;preconnect&#039; href=&#039;https://fonts.googleapis.com&#039;&gt;
+        &lt;link rel=&#039;preconnect&#039; href=&#039;https://fonts.gstatic.com&#039; crossorigin&gt;
+        &lt;link href=&#039;https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap&#039; rel=&#039;stylesheet&#039;&gt;
+        &lt;link rel=&#039;stylesheet&#039; href=&#039;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css&#039;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&#039;navbar&#039;&gt;
+            &lt;div class=&#039;logo&#039;&gt;
+                &lt;img src=&#039;img/logo.png&#039; alt=&#039;&#039;&gt;
+            &lt;/div&gt;
+            &lt;nav&gt;
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href=&#039;index.html&#039;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&#039;addproduct.html&#039;&gt;Add Products&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&#039;dashboard.php&#039;&gt;DashBoard&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&#039;uservices.html&#039;&gt;Services&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&#039;mailto:farmersgate@gmail.com&#039;&gt;Contact us&lt;/a&gt;&lt;/li&gt;
+        
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+            &lt;div class=&#039;signup&#039;&gt;
+                &lt;a href=&#039;signin.html&#039;&gt;&lt;img alt=&#039;Qries&#039; src=&#039;img/signup.jpg&#039;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#039;rowz&#039;&gt;
+            &lt;div class=&#039;productimg&#039;&gt;
+                &lt;img height=&#039;300&#039; width=&#039;300&#039; src=&#039;images/oats.jpg&#039; alt=&#039;&#039;&gt;
+                &lt;h4&gt;Oats&lt;/h4&gt;
+                        &lt;div class=&#039;wishlist&#039;&gt;
+                            &lt;a href=&#039;&#039;&gt;+ Add to wishlist&lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;p&gt;Rupees 30 /KG&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&#039;productdesc&#039;&gt;
+                &lt;h2&gt;Description&lt;/h2&gt;
+                
+    
+            &lt;/div&gt;
+            &lt;div class=&#039;content&#039;&gt;
+                &lt;h4&gt;NA&lt;/h4&gt;
+            &lt;/div&gt;
+            &lt;div class=&#039;contactdetails&#039;&gt;
+                &lt;h3&gt;To order in bulk contact:&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;div class=&#039;mobile&#039;&gt;
+                &lt;a href=&#039;&#039;&gt;98481214&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#039;fname&#039;&gt;
+                &lt;h3&gt;Farmer Name&lt;/h3&gt;
+                &lt;h4&gt;James&lt;/h4&gt;
+            &lt;/div&gt;
+            &lt;div class=&#039;timex&#039;&gt;
+                &lt;h3&gt;Time Uploaded&lt;/h3&gt;
+                &lt;h4&gt;2022-01-21 08:53:49&lt;/h4&gt;
+            &lt;/div&gt;
+            &lt;div class=&#039;locationx&#039;&gt;
+                &lt;h3&gt;Location&lt;/h3&gt;
+                &lt;h4&gt;Hyderabad&lt;/h4&gt;
+    
+            &lt;/div&gt;
+            &lt;div class=&#039;quantity&#039;&gt;
+                &lt;h3&gt;Quantity&lt;/h3&gt;
+                &lt;h4&gt;1000 kg&lt;/h4&gt;
+            &lt;/div&gt;
+            
+    
+        &lt;/div&gt;
+        &lt;div class=&#039;footerx&#039;&gt;
+            &lt;div class=&#039;containerx&#039;&gt;
+                &lt;div class=&#039;rowx&#039;&gt;
+                    &lt;div class=&#039;fc1x&#039;&gt;
+                        &lt;h3&gt;Download our app&lt;/h3&gt;
+                        &lt;p&gt;Supported on Android and Ios&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#039;fc2x&#039;&gt;
+                        &lt;img src=&#039;img/logo.png&#039; alt=&#039;&#039;&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#039;fc22x&#039;&gt;
+                        &lt;h3&gt;FarmersGate&lt;/h3&gt;
+                        &lt;p&gt;Uniting Farmers and Buyers&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#039;fc3x&#039;&gt;
+                        &lt;h3&gt;Follow us&lt;/h3&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;Facebook&lt;/li&gt;
+                            &lt;li&gt;Instagram&lt;/li&gt;
+                            &lt;li&gt;Youtube&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+    &lt;/body&gt;';echo html_entity_decode($str);
+    ?>

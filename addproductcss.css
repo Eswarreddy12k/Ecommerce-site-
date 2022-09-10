@@ -1,0 +1,23 @@
+input[type=text] {
+    width: 1000px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 15px;
+    
+
+  }
+input[type=submit]{
+    background: green ;
+    color: honeydew;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: background 0.4s;
+}
+input[type=submit]:hover{
+  background: black;
+}
+.descp {
+  padding-left: 10px;
+}

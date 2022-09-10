@@ -1,0 +1,102 @@
+.mobile a{
+    color: blue;
+    
+}
+
+.productimg{
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 40px;
+    height: 300px;
+    width: 400px;
+}
+.productdesc{
+    position: absolute;
+    padding-left: 520px;
+    padding-top: 40px;
+}
+.content{
+    position: absolute;
+    padding-left: 520px;
+    padding-top: 90px;
+}
+.contactdetails{
+    position: absolute;
+    padding-left: 1170px;
+    padding-top: 50px;
+}
+.mobile{
+    position: absolute;
+    padding-left: 1170px;
+    padding-top: 90px;
+}
+.fname{
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 490px;
+}
+.locationx{
+    position: absolute;
+    padding-left: 370px;
+    padding-top: 490px;
+
+}
+.timex{
+    position: absolute;
+    padding-left: 770px;
+    padding-top: 490px;
+
+}
+.quantity{
+    position: absolute;
+    padding-left: 1170px;
+    padding-top: 490px;
+}
+.footerx p{
+    color: #8a8a8a;
+}
+.footerx h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.fc1x, .fc2x, .fc3x{
+    min-width: 400px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.fc1x{
+    flex-basis: 25%;
+}
+.fc22x{
+    position: absolute;
+    text-align: left;
+    padding-left: 1200px;
+    
+    
+}
+.fc2x img{
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+
+}
+.containerx{
+    max-width: 1600px;
+    margin: auto;
+}
+.rowx{
+    display: flex;
+    align-items: top;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footerx{
+    position: absolute;
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0px 20px;
+    margin-top: 700px;
+    padding-right: 319px;
+    
+}
